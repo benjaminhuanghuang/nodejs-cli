@@ -10,7 +10,7 @@ class Base {
 }
 
 class Sub extends Base {
-  constructor() {
+  constructor(val) {
     super();
     this.name = "Sub";
   }

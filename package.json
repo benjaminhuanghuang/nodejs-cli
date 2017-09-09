@@ -11,7 +11,8 @@
   },
   "babel": {
     "presets": [
-      "es2015"
+      "es2015",
+      "stage-0"
     ]
   },
   "repository": {
@@ -33,6 +34,7 @@
     "webpack": "^3.5.4",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.1",
-    "babel-preset-es2015": "^6.24.1"
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
   }
 }
